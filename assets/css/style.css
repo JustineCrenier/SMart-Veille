@@ -76,6 +76,25 @@ body {
         body .swiper-container .swiper-wrapper .intro p span {
           display: block;
           text-decoration: underline; }
+      body .swiper-container .swiper-wrapper .intro a {
+        display: block;
+        color: #DD2222;
+        padding: 15px 30px;
+        background-color: white;
+        margin-top: 30px;
+        text-decoration: none;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        body .swiper-container .swiper-wrapper .intro a:hover {
+          background-color: black;
+          color: white;
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
     body .swiper-container .swiper-wrapper .what {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -162,6 +181,68 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
+        body .swiper-container .swiper-wrapper .contrat div:first-child p {
+          color: white;
+          line-height: 1.4em; }
+        body .swiper-container .swiper-wrapper .contrat div:first-child ul {
+          margin-top: 30px; }
+          body .swiper-container .swiper-wrapper .contrat div:first-child ul li {
+            margin-bottom: 15px;
+            list-style-type: square;
+            color: white; }
+      body .swiper-container .swiper-wrapper .contrat .etapes {
+        height: 100vh;
+        overflow: auto; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box {
+          height: 100vh;
+          width: 100%;
+          background-color: white;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child h2, body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child h3, body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child p, body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child li {
+          color: black; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child h3 {
+          font-size: 1.3em;
+          color: #DD2222;
+          margin-bottom: 30px; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child p {
+          font-size: 1em; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child ul li {
+          font-size: 1.2em; }
+          body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child ul li ul.souslist {
+            margin-top: 0; }
+            body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child ul li ul.souslist li {
+              font-size: 0.8em;
+              color: #DD2222; }
+            body .swiper-container .swiper-wrapper .contrat .etapes .box:first-child ul li ul.souslist li:first-child {
+              margin-top: 15px; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(2), body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) {
+          background-color: lightgrey; }
+          body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(2) h3, body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) h3 {
+            font-size: 1.3em;
+            color: #DD2222;
+            margin-bottom: 30px; }
+          body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(2) ul, body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) ul {
+            width: 50%;
+            list-style-type: square; }
+            body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(2) ul li, body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) ul li {
+              margin-bottom: 15px;
+              line-height: 1.4em; }
+              body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(2) ul li span, body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) ul li span {
+                font-weight: bold; }
+        body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) {
+          background-color: white; }
 
 .swiper-container-rtl .swiper-button-next.swiper-button-black, .swiper-container-rtl .swiper-button-prev.swiper-button-black {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%…2L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E"); }
