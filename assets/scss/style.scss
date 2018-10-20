@@ -4,7 +4,16 @@
 h1, h2, h3, p, div, span, li, a {
 	font-family: $font;
 }
-
+h2{
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+p{
+	font-size: 1.2em;
+}
 body{
 	height: 100vh;
 	.swiper-container{
@@ -32,6 +41,89 @@ body{
 					}
 				}
 			}
+			.what{
+				display: flex;
+				div{
+					width: 50%;
+				}
+				div:first-child{
+					background-color: $firstColor;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					p{
+						width: 50%;
+						margin-bottom: 30px;
+						color: white;
+						line-height: 1.4em;
+						span{
+							font-weight: bold;
+							color: black;
+						}
+					}
+				}
+				div:nth-child(2){
+					div:first-child{
+						background-color: lightgrey;
+						h2{
+							color: black;
+						}
+						p{
+							color: black;
+							text-align: center;
+						}
+						ul{
+							li{
+								margin-bottom:  10px;
+								list-style-type: square; 							}
+						}
+					}
+					div:nth-child(2){
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						h2{
+							color: black;
+						}
+						p{
+							width: 50%;
+							line-height: 1.4em;
+							text-align: center;
+							span{
+								font-weight: bold;
+								color: $firstColor;
+							}
+						}
+					}
+					div{
+						width: 100%;
+						height: 50vh;
+					}
+				}
+			}
+			.contrat{
+				display: flex;
+				div{
+					width: 50%;
+				}
+				div:first-child{
+					background-color: $firstColor;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+				}
+			}
 		}
 	}
+}
+
+//STYLE SWIPER
+.swiper-container-rtl .swiper-button-next.swiper-button-black, .swiper-container-rtl .swiper-button-prev.swiper-button-black {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%…2L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E");
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+	background: #000000;
 }
