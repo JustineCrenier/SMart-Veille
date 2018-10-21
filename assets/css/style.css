@@ -322,6 +322,141 @@ body {
           line-height: 1.4em; }
           body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) ul li span {
             font-weight: bold; }
+    body .swiper-container .swiper-wrapper .schema {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      body .swiper-container .swiper-wrapper .schema div {
+        height: 50vh; }
+      body .swiper-container .swiper-wrapper .schema .up {
+        background-color: #DD2222;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        body .swiper-container .swiper-wrapper .schema .up h3 {
+          font-size: 1.3em;
+          text-decoration: underline;
+          font-weight: bold; }
+        body .swiper-container .swiper-wrapper .schema .up .recettes {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 30px;
+          width: 900px;
+          height: 150px;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          body .swiper-container .swiper-wrapper .schema .up .recettes div {
+            width: 250px;
+            height: 100px;
+            padding: 0 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-align: center; }
+            body .swiper-container .swiper-wrapper .schema .up .recettes div p {
+              font-size: 1em; }
+      body .swiper-container .swiper-wrapper .schema .square {
+        height: 100px;
+        padding: 0 45px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 2px solid black; }
+        body .swiper-container .swiper-wrapper .schema .square h2 {
+          color: black;
+          text-decoration: none;
+          font-size: 1.4em;
+          margin: 0; }
+      body .swiper-container .swiper-wrapper .schema .down {
+        background-color: lightgrey;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        body .swiper-container .swiper-wrapper .schema .down h3 {
+          font-size: 1.3em;
+          text-decoration: underline;
+          font-weight: bold; }
+        body .swiper-container .swiper-wrapper .schema .down .depenses {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-top: 45px;
+          width: 900px;
+          height: 150px;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between; }
+          body .swiper-container .swiper-wrapper .schema .down .depenses div {
+            width: 250px;
+            height: 100px;
+            padding: 0 15px;
+            background-color: white;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            text-align: center; }
+            body .swiper-container .swiper-wrapper .schema .down .depenses div p {
+              font-size: 1em; }
 
 .swiper-container-rtl .swiper-button-next.swiper-button-black, .swiper-container-rtl .swiper-button-prev.swiper-button-black {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%…2L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E"); }
