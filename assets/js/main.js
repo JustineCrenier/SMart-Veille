@@ -7,4 +7,7 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+       keyboard: {
+        enabled: true,
+      },
     });

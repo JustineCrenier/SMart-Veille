@@ -243,6 +243,85 @@ body {
                 font-weight: bold; }
         body .swiper-container .swiper-wrapper .contrat .etapes .box:nth-child(3) {
           background-color: white; }
+    body .swiper-container .swiper-wrapper .activite {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      body .swiper-container .swiper-wrapper .activite div {
+        width: 50%; }
+      body .swiper-container .swiper-wrapper .activite div:first-child {
+        background-color: #DD2222;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        body .swiper-container .swiper-wrapper .activite div:first-child h3 {
+          font-size: 1.3em;
+          color: white;
+          text-align: left;
+          -webkit-text-decoration: uderline;
+          text-decoration: uderline;
+          margin-bottom: 30px; }
+        body .swiper-container .swiper-wrapper .activite div:first-child p {
+          width: 50%;
+          line-height: 1.4em;
+          text-align: center;
+          color: white; }
+          body .swiper-container .swiper-wrapper .activite div:first-child p span {
+            font-weight: bold;
+            color: black; }
+      body .swiper-container .swiper-wrapper .activite div:nth-child(2) div {
+        height: 50vh;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; }
+      body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child {
+        background-color: lightgrey; }
+        body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child h3, body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child p {
+          color: black; }
+        body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child h3 {
+          font-weight: bold; }
+        body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child ul {
+          margin-top: 15px;
+          list-style-type: square; }
+          body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child ul li {
+            margin-bottom: 15px; }
+            body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:first-child ul li span {
+              font-weight: bold; }
+      body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) h3 {
+        margin-bottom: 30px;
+        font-size: 1.3em;
+        font-weight: bold; }
+      body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) p {
+        margin-bottom: 15px; }
+      body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) ul {
+        list-style-type: square;
+        width: 50%; }
+        body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) ul li {
+          margin-bottom: 15px;
+          line-height: 1.4em; }
+          body .swiper-container .swiper-wrapper .activite div:nth-child(2) div:nth-child(2) ul li span {
+            font-weight: bold; }
 
 .swiper-container-rtl .swiper-button-next.swiper-button-black, .swiper-container-rtl .swiper-button-prev.swiper-button-black {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%…2L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E"); }
